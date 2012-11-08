@@ -1,0 +1,183 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.ui-content { padding: 0 }
+.ui-footer {
+    text-align: left;
+    padding: 0px 2px !important;
+}
+.ui-icon-check { opacity: 0.3 }
+.checked .ui-icon-check { opacity: 1 }
+.ui-icon-mydelete { background-image: url(img/mydelete.png) }
+.ui-icon-layers { background-image: url(img/openlayers.png) }
+.ui-content .ui-listview-inset,
+#search_results { margin: 1em }
+.ui-content .ui-listview { margin: 0 }
+.portrait,
+.portrait #mappage { min-height: 0 }
+#mappage,
+#mappage .ui-content,
+#map {
+    width: 100%;
+    height: 100%;
+}
+#navigation {
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    z-index: 1000;
+}
+#navigation .ui-btn-icon-notext {
+    display: block;
+    padding: 7px 6px 7px 8px;
+}
+#title,
+#tags,
+#shortdesc { display: none }
+#details-list li { padding: 15px 10px }
+.test {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 20em;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    font-size: smaller;
+    color: white;
+    background-color: transparent;
+    z-index: 1000;
+}
+.test .layersDiv {
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    background-color: darkblue;
+}
+.test .layersDiv .baseLbl,
+.test .layersDiv .dataLbl {
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+}
+.test .layersDiv .baseLayersDiv,
+.test .layersDiv .dataLayersDiv { padding-left: 10px }
+.test .maximizeDiv,
+.test .minimizeDiv {
+    width: 18px;
+    height: 18px;
+    top: 5px;
+    right: 0;
+    cursor: pointer;
+}
+.nav-glyphish-example .ui-btn-corner-all { -webkit-border-radius: 0.5em!important }
+.nav-glyphish-example .ui-btn { margin-top: 5px!important }
+.nav-glyphish-example .ui-btn .ui-btn-inner {
+    padding-top: 20px !important;
+    padding-left: 15px !important;
+}
+.nav-glyphish-example .ui-btn .ui-icon {
+    width: 24px!important;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+#locate .ui-icon {
+    background: url(img/193-location-arrow.png) 50% 50% no-repeat;
+    background-size: 24px 17px;
+}
+#track .ui-icon {
+    background: url(img/122-stats.png) 50% 50% no-repeat;
+    background-size: 32px 20px;
+}
+#point .ui-icon {
+    background: url(img/07-map-marker.png) 50% 50% no-repeat;
+    background-size: 18px 18px;
+}
+#zoomin .ui-icon {
+    background: url(img/10-medical.png) 50% 50% no-repeat;
+    background-size: 20px 20px;
+}
+#zoomout .ui-icon {
+    background: url(img/minus.png) 50% 50% no-repeat;
+    background-size: 20px 20px;
+}
+#kanri .ui-icon {
+    background: url(img/19-gear.png) 50% 50% no-repeat;
+    background-size: 20px 20px;
+}
+#bookmark .ui-icon {
+    background: url(img/14-tag.png) 50% 50% no-repeat;
+    background-size: 18px 18px;
+}
+#layer .ui-icon {
+    background: url(img/42-photos.png) 50% 50% no-repeat;
+    background-size: 18px 18px;
+}
+.content-primary {
+    width: 90%;
+    margin: 0 auto;
+}
+.olControlAttribution {
+    position : absolute;
+    font-size : 10px;
+    bottom : 0 !important;
+    left : 2px !important;
+}
+.olImageLoadError { display: none !important }
+.olControlLayerSwitcher { 
+    width: 13em !important;
+    top: 0px !important;
+    right: 0 !important;
+}
+.olControlLayerSwitcher .layersDiv { background-color: #333 !important }
+.olControlLayerSwitcher .maximizeDiv,
+.olControlLayerSwitcher .minimizeDiv {
+    width: 22px !important;
+    height: 22px !important;
+//    top: -23px !important;
+//    right: 0 !important;
+    cursor: pointer !important;
+}
+.olControlEditingToolbar {
+    left: 0 !important;
+    right: auto !important;
+    top: 0 !important;
+}
+.olControlEditingToolbar .olControlSelectFeatureItemInactive { background-image: url("theme/default/img/info_off.png");}
+.olControlEditingToolbar .olControlSelectFeatureItemActive { background-image: url("theme/default/img/info_on.png"); }
+.olControlMousePosition {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    height: 15px;
+    width: 400px;
+    font-size: 8pt;
+    background-color: white;
+}
+.black_overlay {
+    display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.8;
+    opacity: .80;
+    filter: alpha(opacity=80);
+}
+
+
+#markerpage .ui-btn-inner,#featurepage .ui-btn-inner{
+	padding: .6em 10px;
+}
